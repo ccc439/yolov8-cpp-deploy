@@ -1,0 +1,23 @@
+# 编译产物
+bin/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+
+# TRT 引擎缓存
+trt_cache/
+
+# 程序输出（结果图 + 基准文本，运行生成）
+output/
+
+# 模型和类名表（README 有准备说明）
+models/
+
+# Python
+__pycache__/
+
+# VS / VS Code
+.vs/
+.vscode/
